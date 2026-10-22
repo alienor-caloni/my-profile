@@ -1,0 +1,131 @@
+/* ===== Design général ===== */
+
+body {
+  background-color: #faf7f2;
+  font-family: "Lato", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #1b2a4a;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+a {
+  color: #b5485d;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1b2a4a;
+}
+
+/* ===== Design avec des classes ===== */
+
+/* La boîte centrale qui contient toute la page */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+/* Les cartes blanches avec une ombre légère */
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+/* La photo ronde */
+.img-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 50%;
+}
+
+/* Le bouton */
+.btn-blue {
+  display: inline-block;
+  background-color: #1b2a4a;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #b5485d;
+  color: white;
+}
+
+/* La liste des réseaux, en ligne */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: #1b2a4a;
+  transition: color 0.3s ease;
+}
+
+.list-inline i:hover {
+  color: #b5485d;
+}
+
+/* ===== Design avec un id ===== */
+
+#introduction {
+  margin-bottom: 40px;
+}
+
+/* ===== Responsive design ===== */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+  .card-white {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
