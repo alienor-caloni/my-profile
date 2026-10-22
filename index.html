@@ -15,7 +15,9 @@
     <div class="container">
 
       <header class="card-white" id="introduction">
-        <h1>Bonjour, je suis Aliénor 👋</h1>
+        <h1 class="page-title">Bonjour, je suis Aliénor 👋</h1>
+        <button class="shout-button btn-blue">Dire bonjour</button>
+        <br><br>
         <img src="images/profile.jpg" alt="Photo d'Aliénor" class="img-circle">
         <p>
           Étudiante à <strong>HEC Paris</strong> et en droit à Assas,
@@ -24,28 +26,36 @@
         <a href="https://www.hec.edu" target="_blank" class="btn-blue">Découvrir HEC</a>
       </header>
 
-      <div class="card-white">
-        <h2>Le théâtre 🎭</h2>
-        <p>
-          Je fais du théâtre depuis une dizaine d'années et j'ai fait option théâtre
-          au lycée, trois ans donc au sein d'une même troupe.
-        </p>
+      <div class="cards">
+
+        <div class="card-white">
+          <h2>Le théâtre 🎭</h2>
+          <p>
+            Je fais du théâtre depuis une dizaine d'années et j'ai fait option théâtre
+            au lycée, trois ans donc au sein d'une même troupe.
+          </p>
+        </div>
+
+        <div class="card-white">
+          <h2>La musique 🎹</h2>
+          <p>
+            Je joue de la guitare et du piano, et je chante.
+          </p>
+        </div>
+
+        <div class="card-white">
+          <h2>Le sport 🎾</h2>
+          <p>
+            Je joue au tennis, je cours et je fais du surf.
+          </p>
+        </div>
+
       </div>
 
-      <div class="card-white">
-        <h2>La musique 🎹</h2>
-        <p>
-          Je joue de la guitare et du piano, et je chante.
-        </p>
+            <div class="card-white">
+        <h2>Me laisser un message ✉️</h2>
+        <div data-tf-live="01M5HXPH6ZHZXFPZJJNT8S3XSK"></div><script src="//embed.typeform.com/next/embed.js"></script>
       </div>
-
-      <div class="card-white">
-        <h2>Le sport 🎾</h2>
-        <p>
-          Je joue au tennis, je cours et je fais du surf.
-        </p>
-      </div>
-
       <footer class="card-white">
         <h2>Me suivre</h2>
         <ul class="list-inline">
@@ -60,10 +70,13 @@
             </a>
           </li>
         </ul>
+        <p>Me contacter : <span class="email">alienor.caloni@hec.edu</span></p>
+        <button class="copy-email btn-blue">Copier mon e-mail</button>
       </footer>
 
     </div>
 
+    <script src="behavior.js"></script>
   </body>
 
 </html>
